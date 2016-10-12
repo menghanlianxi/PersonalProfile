@@ -1,0 +1,45 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,P2_jpeg,P1_jpeg,P3_jpeg,icon_png,icon2_png,icon1_jpg",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "P2_jpeg",
+			"type": "image",
+			"url": "assets/P2.jpeg"
+		},
+		{
+			"name": "P1_jpeg",
+			"type": "image",
+			"url": "assets/P1.jpeg"
+		},
+		{
+			"name": "P3_jpeg",
+			"type": "image",
+			"url": "assets/P3.jpeg"
+		},
+		{
+			"name": "icon_png",
+			"type": "image",
+			"url": "assets/icon.png"
+		},
+		{
+			"name": "icon2_png",
+			"type": "image",
+			"url": "assets/icon2.png"
+		},
+		{
+			"name": "icon1_jpg",
+			"type": "image",
+			"url": "assets/icon1.jpg"
+		}
+	]
+}
