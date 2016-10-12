@@ -208,14 +208,6 @@ var Main = (function (_super) {
         this.addChild(icon);
         icon.x = 26;
         icon.y = 33;
-        var line = new egret.Shape();
-        this.addChild(line);
-        line.graphics.lineStyle(2, 0xffffff);
-        line.graphics.moveTo(0, 0);
-        line.graphics.lineTo(0, 117);
-        line.graphics.endFill();
-        line.x = 172;
-        line.y = 61;
         var Start = new egret.TextField();
         this.addChild(Start);
         Start.textColor = 0xffffff;
